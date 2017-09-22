@@ -34,4 +34,4 @@ Contains:
 * setup.ino
 * tm1638.ino
 
-#### Documentation Written by [Charlson So](github.com/so0p)
+###### Documentation Written by [Charlson So](github.com/so0p)

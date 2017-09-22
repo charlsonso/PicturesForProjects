@@ -5,13 +5,11 @@ Glendale Community College Robotics: MC_GAMEPAD
 
 Wireless GamePad V2.0 contains an XBee that can communicate with the XBee Zigbee. 
 
-=====
-
 ## Setup
 
 The gamepad can be connected through USB Programmable Interface where Arduino IDE can upload code.
 
-![alt text](https://www.dfrobot.com/wiki/images/f/f5/GamePad_v2.0_pinout.png)
+![alt text](https://www.dfrobot.com/wiki/images/f/f5/GamePad_v2.0_pinout.png "pinout")
 
 ## Software Documentation
 
@@ -44,9 +42,9 @@ Two bytes of data are sent via serial communication. Each byte takes half the co
 Digital read of the button information will save as an Int, either a 1 or a 0 (representing pressed or not pressed). The bitwise operators will shift the data over to the correct spot on the byte to declare 
 
 xBeeMsg[0]:
-| Byte Number   | 7             | 6     | 5     | 4     | 3     | 2     | 1     | 0     |
-| ---   | --- | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
-| Corresponding Control | Byte Identifer (0 for first Byte)| Down | Left | Right | Right Bumper 1| Right Bumper 2 | Left Bumper 1 | Left Bumper 2 |
+Byte Number   | 7             | 6     | 5     | 4     | 3     | 2     | 1     | 0     |
+---   | --- | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+Corresponding Control | Byte Identifer (0 for first Byte)| Down | Left | Right | Right Bumper 1| Right Bumper 2 | Left Bumper 1 | Left Bumper 2 |
 
 Line 141-157: Bitwise Operations
 
@@ -54,4 +52,4 @@ If the Down button is pressed its value is represented as a 1. The bitwise left 
 
 If the xBeeMsg is equal to 01001011, the down button, right bumper 1, left bumper 1, and left bumper 2 are all pressed.
 
-##### Documentation Written by [Charlson So](github.com/so0p)
+####### Documentation Written by [Charlson So](github.com/so0p)
