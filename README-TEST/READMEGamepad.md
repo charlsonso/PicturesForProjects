@@ -9,7 +9,7 @@ Wireless GamePad V2.0 contains an XBee that can communicate with the XBee Zigbee
 
 The gamepad can be connected through USB Programmable Interface where Arduino IDE can upload code.
 
-![alt text](https://www.dfrobot.com/wiki/images/f/f5/GamePad_v2.0_pinout.png "pinout")
+![picture](https://www.dfrobot.com/wiki/images/f/f5/GamePad_v2.0_pinout.png)
 
 ## Software Documentation
 
