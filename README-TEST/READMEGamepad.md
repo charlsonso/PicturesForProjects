@@ -39,9 +39,9 @@ Two bytes of data are sent via serial communication. Each byte takes half the co
 Digital read of the button information will save as an Int, either a 1 or a 0 (representing pressed or not pressed). The bitwise operators will shift the data over to the correct spot on the byte to declare.  
 
 xBeeMsg[0]:  
-Byte Number   | 7             | 6     | 5     | 4     | 3     | 2     | 1     | 0     |
----| --- | --- | --- | --- | --- | --- | --- | --- |
-Corresponding Control | Byte Identifer (0 for first Byte)| Down | Left | Right | Right Bumper 1| Right Bumper 2 | Left Bumper 1 | Left Bumper 2 |
+|Byte Number: | 7             | 6     | 5     | 4     | 3     | 2     | 1     | 0     |
+|---| --- | --- | --- | --- | --- | --- | --- | --- |
+|Corresponding Control: | Byte Identifer (0 for first Byte)| Down | Left | Right | Right Bumper 1| Right Bumper 2 | Left Bumper 1 | Left Bumper 2 |
 
 #### Line 141-157: Bitwise Operations  
 
